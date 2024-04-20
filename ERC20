@@ -2,6 +2,7 @@
 pragma solidity ^0.8.17;
 
 contract ERC20 {
+
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
