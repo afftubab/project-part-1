@@ -7,7 +7,6 @@ This repository contains Solidity smart contracts for an ERC20 token and a Vault
 The ERC20 token contract implements the ERC20 standard interface and provides basic functionality for transferring tokens, querying balances, approving spending on behalf of token holders, minting new tokens, and burning existing tokens.
 
 ### Functions:
-
 - `transfer(address recipient, uint amount)`: Transfer tokens to a specified recipient.
 - `approve(address spender, uint amount)`: Approve a spender to transfer tokens on behalf of the owner.
 - `transferFrom(address sender, address recipient, uint amount)`: Transfer tokens from one address to another, given approval.
